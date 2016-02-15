@@ -7,7 +7,7 @@
 <body>
 	<section>
 		<article>
-			<?php echo getContent(); ?>
+			<?php echo getContent($content); ?>
 		</article>
 	</section>
 </body>

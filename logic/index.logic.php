@@ -1,6 +1,6 @@
 <?php 
-	$content = "No files found matching your description";
 	$page = $_GET['page'];
+	
 
 	$query = "SELECT * FROM pagecontent";
 
@@ -10,9 +10,10 @@
 
 	if ($page == $pagecontent['page']){
 		$content = $pagecontent['content'];
+	}else{
+		$content = "No files found matching your description";
 	}
 
-
-	function getContent(){
+	function getContent($content){
 		return ($content);
 	}
