@@ -1,17 +1,18 @@
 <?php 
-	$guide = (isset($_GET['page']));
+	$content = "No files found matching your description";
+	$page = $_GET['page'];
 
-	if (isset($_GET['page']) == "home") {
+	$query = "SELECT * FROM pagecontent";
 
-	}elseif (isset($_GET['page']) == "guide"){
+	$result = $db->query($query);
+	$pagecontent = $result->fetch_all(MYSQLI_ASSOC);
+	return ($pagecontent);
 
-	}else{
-
+	if ($page == $pagecontent['page']){
+		$content = $pagecontent['content'];
 	}
 
-	$query = "SELECT pagecontent.id as id, pagecontent.page as pageName, pagecontent.content as content FROM pagecontent WHERE id=1";
-	$result = $db->query($query);
 
-	$page = $result->fetch_all(MYSQLI_ASSOC);
-
-
+	function getContent(){
+		return ($content);
+	}
