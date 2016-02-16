@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>doomla</title>
+	<title><?php echo $page; ?></title>
 	<link rel="stylesheet" href="templates/template.php">
 </head>
 <body>

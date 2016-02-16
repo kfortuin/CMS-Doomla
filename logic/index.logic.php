@@ -1,19 +1,24 @@
 <?php 
-	$page = $_GET['page'];
+	$content = "No files found matching your description";
+	@$page = $_GET['page'];
 	
 
-	$query = "SELECT * FROM pagecontent";
+	$query = "SELECT * FROM pagecontent WHERE page='$page'";
 
 	$result = $db->query($query);
-	$pagecontent = $result->fetch_all(MYSQLI_ASSOC);
-	return ($pagecontent);
+	$pagecontent = $result->fetch_assoc();
+	
 
-	if ($page == $pagecontent['page']){
+	function getContent(){
+		global $pagecontent;
+		global $page;
+
 		$content = $pagecontent['content'];
-	}else{
-		$content = "No files found matching your description";
-	}
-
-	function getContent($content){
-		return ($content);
+		if (!$content || (!is_numeric($content))){
+			$page = "home";
+			$content = $pagecontent['content'];
+			echo $content;
+		}else{
+			echo $content;
+		}
 	}
