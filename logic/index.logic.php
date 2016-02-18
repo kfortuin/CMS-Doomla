@@ -1,5 +1,9 @@
 <?php 
 	$content = "No files found matching your description";
+	if (@$_GET['page'] == null || (empty($_GET['page']) || is_numeric($_GET['page'])))
+	{
+		$_GET['page'] = "home";
+	}
 	@$page = $_GET['page'];
 	
 
@@ -9,12 +13,14 @@
 	$pagecontent = $result->fetch_assoc();
 	
 
-	function getContent(){
+	function getContent()
+	{
 		global $pagecontent;
 		global $page;
 
 		$content = $pagecontent['content'];
-		if (!$content || (!is_numeric($content))){
+		if (!$content || !is_numeric($content))
+		{
 			$page = "home";
 			$content = $pagecontent['content'];
 			echo $content;
