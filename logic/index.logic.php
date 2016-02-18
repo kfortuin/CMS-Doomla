@@ -4,27 +4,37 @@
 	{
 		$_GET['page'] = "home";
 	}
-	@$page = $_GET['page'];
+	$page = $_GET['page'];
 	
 
 	$query = "SELECT * FROM pagecontent WHERE page='$page'";
 
 	$result = $db->query($query);
-	$pagecontent = $result->fetch_assoc();
-	
+	$pagecontent = $result->fetch_assoc();	
 
 	function getContent()
 	{
 		global $pagecontent;
-		global $page;
-
 		$content = $pagecontent['content'];
-		if (!$content || !is_numeric($content))
+		echo $content;
+
+		if(!$content)
 		{
-			$page = "home";
-			$content = $pagecontent['content'];
-			echo $content;
-		}else{
-			echo $content;
+			echo "No content has been found";
+		}
+	}
+
+	function getMenu()
+	{
+		global $db;
+		$query = "SELECT * FROM pagecontent";
+
+		$result = $db->query($query);
+		$menuoption = $result->fetch_all(MYSQLI_ASSOC);
+		
+		foreach ($menuoption AS $menu)
+		{
+			$menu = $menu['page'];
+			echo "<li><a href='index.php?page=$menu'>" . $menu . "</a></li> ";
 		}
 	}
