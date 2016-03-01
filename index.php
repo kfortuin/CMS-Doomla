@@ -2,5 +2,5 @@
 	require "includes/connect.php";
 	require "logic/index.logic.php";
  	require "templates/template.php";
- 	var_dump($page);
+ 	// var_dump($page);
  ?>

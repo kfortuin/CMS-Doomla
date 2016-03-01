@@ -35,6 +35,6 @@
 		foreach ($menuoption AS $menu)
 		{
 			$menu = $menu['page'];
-			echo "<li><a href='index.php?page=$menu'>" . $menu . "</a></li> ";
+			echo "<li role='presentation'><a href='index.php?page=$menu'>" . $menu . "</a></li> ";
 		}
 	}
