@@ -1,0 +1,919 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"a",
+				"a	<a href=\"mailto:\"> "
+			],
+			[
+				"inp",
+				"inputs	input - submit"
+			],
+			[
+				"input",
+				"inputb	input - button"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mysqli_real",
+				"mysqli_real_escape_string〔function〕"
+			],
+			[
+				"species",
+				"speciesDef"
+			],
+			[
+				"esca",
+				"escape_string"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"patie",
+				"$patient〔variable〕"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"incl",
+				"include〔keyword〕"
+			],
+			[
+				"in",
+				"inputt	input - text"
+			],
+			[
+				"labe",
+				"label	Tag"
+			],
+			[
+				"tet",
+				"textarea	<textarea>"
+			],
+			[
+				"lab",
+				"label	<label>"
+			],
+			[
+				"http",
+				"http_response_code〔function〕"
+			],
+			[
+				"form",
+				"form	Tag"
+			],
+			[
+				"require",
+				"require_once〔keyword〕"
+			],
+			[
+				"endfor",
+				"endforeach〔keyword〕"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"fout",
+				"$foutGetal1〔variable〕"
+			],
+			[
+				"foutGet",
+				"foutGetal2"
+			],
+			[
+				"u",
+				"$uitkomst〔variable〕"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"repeat",
+				"repeat-x"
+			],
+			[
+				"bak",
+				"background-image"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"sc",
+				"schroevendraaier"
+			],
+			[
+				"mysq",
+				"mysql_query〔function〕"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mys",
+				"mysql_connect〔function〕"
+			],
+			[
+				"includ",
+				"inclued_get_data"
+			],
+			[
+				"activ",
+				"activiteiten"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"inc",
+				"include〔keyword〕"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"argi",
+				"margin-left"
+			],
+			[
+				"mysqli_",
+				"mysqli_connect"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"border-left",
+				"border-left-style"
+			],
+			[
+				"ima",
+				"background-image"
+			],
+			[
+				"pso",
+				"position"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"gebr",
+				"gebruiksvoorwerp"
+			],
+			[
+				"geb",
+				"gebruiksvoorwerp"
+			],
+			[
+				"slec",
+				"$slechtsteperseig〔variable〕"
+			],
+			[
+				"sle",
+				"$slechtsteperseig〔variable〕"
+			],
+			[
+				"persoo",
+				"persoonlijke"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margn",
+				"margin-right"
+			],
+			[
+				"bott",
+				"padding-bottom"
+			],
+			[
+				"lit",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"f",
+				"format"
+			],
+			[
+				"im",
+				"imageUrl"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"bCk",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "admin/pages/editPage.php",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/pages/deletePage.php",
+			"settings":
+			{
+				"buffer_size": 431,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "ssp",
+		"selected_items":
+		[
+			[
+				"ssp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssc",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"PCI",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssph",
+				"Set Syntax: PHP"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Opdrachten/CMSDoomla",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/css",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/logic",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/pages",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/template"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/pages/deletePage.php",
+		"/C/wamp/www/Opdrachten/CMSDoomla/logic/index.logic.php",
+		"/C/wamp/www/Opdrachten/CMSDoomla/includes/connect.php",
+		"/C/wamp/www/Opdrachten/CMSDoomla/css/style.css",
+		"/C/wamp/www/Opdrachten/CMSDoomla/admin/pages/editPage.php",
+		"/C/wamp/www/Opdrachten/CMS Doomla/admin/admin.php",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/PHP/Calculator/css/style.css",
+		"/C/wamp/www/Opdrachten/CMS Doomla/css/css.css",
+		"/C/wamp/www/Opdrachten/Calender/database/index.php",
+		"/C/wamp/www/Opdrachten/Calender/database/logic/edit.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/create.logic.php",
+		"/C/wamp/www/Opdrachten/Calender/database/logic/delete.logic.php",
+		"/C/wamp/www/Opdrachten/Calender/database/logic/create.logic.php",
+		"/C/wamp/www/Opdrachten/CMS Doomla/includes/connect.php",
+		"/C/wamp/www/Opdrachten/CMS Doomla/templates/template.php",
+		"/C/wamp/www/Opdrachten/Calender/database/includes/connect.php",
+		"/C/wamp/www/Opdrachten/CMS Doomla/css/css.php",
+		"/C/wamp/www/Opdrachten/Calender/database/edit.php",
+		"/C/wamp/www/Opdrachten/Calender/database/delete.php",
+		"/C/wamp/www/Opdrachten/Calender/database/create.php",
+		"/C/wamp/www/Opdrachten/Calender/database/index - kopie.php",
+		"/C/wamp/www/Opdrachten/Calender/database/months.sql",
+		"/C/Users/Kevin/Downloads/months.sql",
+		"/C/wamp/www/Opdrachten/Calender/database/css/main.css",
+		"/C/wamp/www/Opdrachten/Calender/database/monthdata.sql",
+		"/C/wamp/www/Opdrachten/Calender/database/daydata.sql",
+		"/C/wamp/www/Opdrachten/Calender/database/schema.sql",
+		"/C/wamp/www/Opdrachten/Calender/database/data.sql",
+		"/C/wamp/www/Opdrachten/Hospital/login.php",
+		"/C/wamp/www/webpage/pages/todolist/home/indexdeleted.php",
+		"/C/wamp/www/webpage/pages/todolist/home/index.php",
+		"/C/wamp/www/webpage/pages/todolist/home/indexdelete.php",
+		"/C/wamp/www/Opdrachten/Hospital/common/header.php",
+		"/C/wamp/www/webpage/pages/todolist/includes/head.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/delete.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/delete.php",
+		"/C/wamp/www/Opdrachten/Hospital/common/connect.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/index.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/index.logic.php",
+		"/C/wamp/www/Opdrachten/Calender/database/main.css",
+		"/C/wamp/www/Opdrachten/Hospital/common/main.css",
+		"/C/wamp/www/Opdrachten/Hospital/home/index.php",
+		"/C/wamp/www/webpage/css/style.css",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/create.logic 2.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/edit.logic 2.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/delete.logic 2.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/delete.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/delete.logic.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/delete 2.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/delete.logic.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/login.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/connect.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/edit.logic.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/create.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/create.logic.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/index.logic.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/edit.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/delete.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/hospital.sql",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/hospital (backup).sql",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/connect 2.php",
+		"/C/wamp/www/Opdrachten/Hospital/common/footer.php",
+		"/C/wamp/www/Opdrachten/Hospital/logout.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/edit.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/create.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/delete.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/edit.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/index.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/create.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/edit.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/create.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/patients/edit.logic.php",
+		"/C/wamp/www/Opdrachten/Hospital/patients/edit.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/delete.php",
+		"/C/wamp/www/webpage/pages/todolist/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/create.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/edit.php",
+		"/C/wamp/www/Opdrachten/Hospital/clients/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/common/back.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/edit.php",
+		"/C/wamp/www/Opdrachten/Hospital/species/create.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/delete.logic.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/edit.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/edit.logic.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/delete.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/index.logic.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/index.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/create.logic.php",
+		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/create.php",
+		"/C/wamp/www/Opdrachten/Hospital/hospital.sql",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14 Responsive/css/style.css",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14 Responsive/index.html",
+		"/C/wamp/www/webpage/pages/index.php",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/RWD CSS Responsive/css/style.css",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/RWD CSS Responsive/index.php",
+		"/C/wamp/www/webpage/index.php",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14/css/style.css",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14/index.html",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/Javascript/Uitklapmenu/index.php",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/Javascript/index.php",
+		"/C/wamp/www/webpage/pages/todolist/includes/HackBlock.php",
+		"/C/wamp/www/webpage/pages/todolist/includes/connect.php",
+		"/C/wamp/www/webpage/pages/todolist/indexedit.php",
+		"/C/wamp/www/Opdrachten/RWD CSS Responsive/css/style.css",
+		"/C/wamp/www/Opdrachten/RWD CSS Responsive/index.php",
+		"/C/wamp/www/Opdrachten/Hospital/common/not_found.php",
+		"/C/wamp/www/Calculator Upgrade/index.php",
+		"/C/wamp/www/webpage/css/stylemobile.css",
+		"/C/wamp/www/webpage/include/clock.php",
+		"/C/wamp/www/webpage/pages/good/index.php",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 15/index.html",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/indexedit.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/indexinput.php",
+		"/C/wamp/www/webpage/pages/todolist/indexdelete.php",
+		"/C/wamp/www/webpage/pages/todolist/indexdeleted.php",
+		"/C/wamp/www/webpage/pages/todolist/indexeditinput.php",
+		"/C/wamp/www/webpage/pages/todolist/indexedited.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/head.php",
+		"/C/wamp/www/webpage/include/mobilecheck.php",
+		"/C/wamp/www/webpage/pages/contact/index.php",
+		"/C/Users/Kevin/AppData/Local/Temp/fz3temp-1/stylemobile.css",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 15/pages/contacts.html",
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 15/pages/pricing.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"index.php"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"_GET",
+			"id",
+			"i",
+			"part_species",
+			"client",
+			"')\";",
+			"patients",
+			"patient",
+			"max",
+			"$bodyColor = \"background-color: red\";",
+			"$bodyColor = \"red\";",
+			"formpaniek",
+			"lips",
+			"$image",
+			"f",
+			"then"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"species",
+			"$bodyColor = \"red\";",
+			"$bodyColor = \"background-color: red\";",
+			"$imageUrl",
+			"{"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "admin/pages/editPage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "admin/pages/deletePage.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "CMSDoomlaProject.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
