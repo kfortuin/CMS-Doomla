@@ -10,6 +10,9 @@
 	<title>Create page</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../../lib/ckeditor/ckeditor.js"></script>
+	<script src="../../lib/ckeditor/config.js"></script>
+
 </head>
 <body>
 	<div id="frame">
@@ -20,14 +23,17 @@
 	  </div>
 
 		<form class="form-horizontal" action="../logic/create.logic.php" method="post">
-			<label class="control-label">Page name (max. 20): </label>
-			<input type="text" name="page" maxlength="20" placeholder="Page name" autocomplete="off">
+			<label class="control-label">Page title (max. 20): </label>
+			<input type="text" name="page" maxlength="20" placeholder="Page title" autocomplete="off" required>
 			<br>
 			<label class="control-label">Page content (max. 255): </label>
-			<textarea name="content" maxlength="255" placeholder="example text" autocomplete="off"></textarea>
+			<textarea name="content" maxlength="255" placeholder="example text" autocomplete="off" required></textarea>
+			<script>
+            	CKEDITOR.replace( 'content' );
+        	</script>
 			<br>
 			<label class="control-label">Menu option (max 20): </label>
-			<input type="text" name="menuoption" maxlengt="20" placeholder="pref. same as Page name" autocomplete="off">
+			<input type="text" name="menuoption" maxlengt="20" placeholder="pref. same as Page name" autocomplete="off" required>
 			<br>
 			<input type="submit" name="submit" value="Submit">
 		</form>

@@ -19,7 +19,7 @@
 	</div>
 	
 	<section id="frame">
-		<article>
+		<article style="padding-top: 15px;">
 			<?php echo getContent($content); ?>
 		</article>
 	</section>

@@ -11,6 +11,8 @@
 	<title>Edit page</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../../lib/ckeditor/ckeditor.js"></script>
+	<script src="../../lib/ckeditor/config.js"></script>
 </head>
 <body>
 	<div id="frame">
@@ -20,8 +22,22 @@
 	    <small>Welcome. On this website you can edit a page!</small></h1>  
 	  </div>
 
-		<!-- Display selecte page and allow to be edited -->
-
+	<form class="form-horizontal" action="../logic/edit.logic.php" method="post">
+			<label class="control-label">Page title (max. 20): </label>
+			<input type="text" name="page" maxlength="20" value="<?=$pageOld;?>" autocomplete="off" required>
+			<br>
+			<label class="control-label">Page content (max. 255): </label>
+			<textarea name="content" maxlength="255" value="<?=$contentOld;?>" autocomplete="off" required></textarea>
+			<script>
+            	CKEDITOR.replace( 'content' );
+        	</script>
+			<br>
+			<label class="control-label">Menu option (max 20): </label>
+			<input type="text" name="menuoption" maxlengt="20" value="<?=$menuoptionOld;?>" autocomplete="off" required>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+			<input type="hidden" name="id" value="<?=$pageAll['id'];?>">
+		</form>
 	</div>
 </body>
 </html>
