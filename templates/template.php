@@ -1,3 +1,7 @@
+<?php 
+	require "functions/getMenu.php";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

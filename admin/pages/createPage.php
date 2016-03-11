@@ -1,5 +1,7 @@
 <?php 
+	require "../../includes/connect.php";
 	require "../logic/create.logic.php";
+	require "../functions/getMenu.php"
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +17,11 @@
 
 </head>
 <body>
+	<nav role="navigation">
+		<ul class="nav nav-pills">
+			<?php echo getMenu(); ?>
+		</ul>
+	</nav>
 	<div id="frame">
 	  <div class="page-header">
 	    <h1>Create Page 

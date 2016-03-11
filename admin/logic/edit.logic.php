@@ -24,13 +24,13 @@
 		$contentNew = $db->escape_string($_POST['content']);
 		$menuoptionNew = $db->escape_string($_POST['menuoption']);
 
-		$pageNew = strip_tags($_POST['page']);
-		$contentNew = strip_tags($_POST['content']);
-		$menuoptionNew = strip_tags($_POST['menuoption']);
+		// $pageNew = strip_tags($_POST['page']);
+		// $contentNew = strip_tags($_POST['content']);
+		// $menuoptionNew = strip_tags($_POST['menuoption']);
 
-		$pageNew = stripslashes($pageNew);
-		$contentNew = stripslashes($contentNew);
-		$menuoptionNew = stripslashes($menuoptionNew);
+		// $pageNew = stripslashes($pageNew);
+		// $contentNew = stripslashes($contentNew);
+		// $menuoptionNew = stripslashes($menuoptionNew);
 
 	
 

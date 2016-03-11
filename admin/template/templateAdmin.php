@@ -1,13 +1,23 @@
+<?php 
+	require "../functions/getMenu.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>admin</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body >
+	<nav role="navigation">
+		<ul class="nav nav-pills">
+			<?php echo getMenu(); ?>
+		</ul>
+	</nav>
 	<div class="container">
 	  <div class="jumbotron">
 	    <h1>Admin</h1> 

@@ -1,6 +1,7 @@
 <?php 
 	require "../../includes/connect.php";
 	require "../logic/delete.logic.php";
+	require "../functions/getMenu.php";
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +14,11 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
+	<nav role="navigation">
+		<ul class="nav nav-pills">
+			<?php echo getMenu(); ?>
+		</ul>
+	</nav>
 	<div id="frame">
 		<div class="page-header">
 	    <h1>Delete Page 

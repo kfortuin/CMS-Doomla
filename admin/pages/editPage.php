@@ -1,6 +1,7 @@
 <?php 
 	require "../../includes/connect.php";
 	require "../logic/edit.logic.php";
+	require "../functions/getMenu.php";
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +16,11 @@
 	<script src="../../lib/ckeditor/config.js"></script>
 </head>
 <body>
+	<nav role="navigation">
+		<ul class="nav nav-pills">
+			<?php echo getMenu(); ?>
+		</ul>
+	</nav>
 	<div id="frame">
 	  <div class="page-header">
 	    <h1>Edit Page	
@@ -26,10 +32,10 @@
 			<label class="control-label">Page title (max. 20): </label>
 			<input type="text" name="page" maxlength="20" value="<?=$pageOld;?>" autocomplete="off" required>
 			<br>
-			<label class="control-label">Page content (max. 255): </label>
-			<textarea name="content" maxlength="255" value="<?=$contentOld;?>" autocomplete="off" required></textarea>
+			<label class="control-label">Page content: </label>
+			<textarea name="content" autocomplete="off" required value=<?=$contentOld;?>></textarea>
 			<script>
-            	CKEDITOR.replace( 'content' );
+       	    	CKEDITOR.replace( 'content' );
         	</script>
 			<br>
 			<label class="control-label">Menu option (max 20): </label>
