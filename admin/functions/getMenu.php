@@ -1,4 +1,5 @@
 <?php
+	
 	function getMenu()
 	{
 		global $db;
@@ -16,6 +17,6 @@
 			if ($i == 2)
 				break;
 		}
-		echo "<button type='button' style='float: right; margin-right: 10px;
-		' class='btn btn-default navbar-btn'>Sign in</button>";
+		echo "<a href='../log/logout.php'><button type='button' style='float: right; margin-right: 10px;
+		' class='btn btn-default navbar-btn'>Sign out</button></a>";
 	}
