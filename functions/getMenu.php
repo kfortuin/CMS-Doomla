@@ -14,7 +14,7 @@
 	function getMenu()
 	{
 		global $db;
-		$query = "SELECT * FROM pagecontent";
+		$query = "SELECT * FROM pagecontent WHERE menuorder < 2";
 
 		$result = $db->query($query);
 		$menuoption = $result->fetch_all(MYSQLI_ASSOC);

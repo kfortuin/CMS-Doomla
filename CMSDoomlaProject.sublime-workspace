@@ -355,6 +355,25 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<?php\n	function getContent()\n	{\n		global $pagecontent;\n		$content = $pagecontent['content'];\n		echo $content;\n\n		if(!$content)\n		{\n			echo \"No content has been found\";\n		}\n	}\n\n	function getMenu()\n	{\n		global $db;\n		$query = \"SELECT * FROM pagecontent WHERE menuorder < 3\";\n\n		$result = $db->query($query);\n		$menuoption = $result->fetch_all(MYSQLI_ASSOC);\n		\n		$i = 0;\n		foreach ($menuoption AS $menu)\n		{\n			$menu = $menu['page'];\n			echo \"<li role='presentation'><a href='index.php?page=$menu'>\" . $menu . \"</a></li> \";\n			$i++;\n			if ($i == 2)\n				break;\n		}\n		echo \"<a href='admin/index.php'><button type='button' style='float: right; margin-right: 10px;\n		' class='btn btn-default navbar-btn'>Sign in</button></a>\";\n\n	}\n",
+			"file": "functions/getMenu.php",
+			"file_size": 759,
+			"file_write_time": 131030325956211365,
+			"settings":
+			{
+				"buffer_size": 725,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/template.php",
+			"settings":
+			{
+				"buffer_size": 684,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -459,8 +478,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Opdrachten/CMSDoomla",
+		"/C/wamp/www/Opdrachten/CMSDoomla/functions",
+		"/C/wamp/www/Opdrachten/CMSDoomla/templates"
+	],
 	"file_history":
 	[
+		"/C/wamp/www/Opdrachten/CMSDoomla/CMSDoomlaProject.sublime-project",
 		"/C/wamp/www/Opdrachten/CMSDoomla/admin/functions/getMenu.php",
 		"/C/wamp/www/Opdrachten/CMSDoomla/admin/index.php",
 		"/C/wamp/www/Opdrachten/CMSDoomla/admin/includes/connect.php",
@@ -587,8 +613,7 @@
 		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/create.logic.php",
 		"/C/Users/Kevin/Google Drive/DaVinci AO/Opdrachten/PHP/Hospital/clients/create.php",
 		"/C/wamp/www/Opdrachten/Hospital/hospital.sql",
-		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14 Responsive/css/style.css",
-		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14 Responsive/index.html"
+		"/C/Users/Kevin/Desktop/DaVinci AO/Opdrachten/HTML/Les 14 Responsive/css/style.css"
 	],
 	"find":
 	{
@@ -646,13 +671,192 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "functions/getMenu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								270
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "templates/template.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								159
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -736,7 +940,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
