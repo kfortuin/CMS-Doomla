@@ -12,8 +12,6 @@
 	<title>Edit page</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<script src="../../lib/ckeditor/ckeditor.js"></script>
-	<script src="../../lib/ckeditor/config.js"></script>
 </head>
 <body>
 	<nav role="navigation">
@@ -33,13 +31,13 @@
 			<input type="text" name="page" maxlength="20" value="<?=$pageOld;?>" autocomplete="off" required>
 			<br>
 			<label class="control-label">Page content: </label>
-			<textarea name="content" autocomplete="off" required value=<?=$contentOld;?>></textarea>
-			<script>
-       	    	CKEDITOR.replace( 'content' );
-        	</script>
+			<textarea required name="content" autocomplete="off" rows="10" cols="88"><?=$contentOld;?></textarea>
+			<br>
+			<label class="control-label">Menu order: </label>
+			<input type="number" name="menuorder" value="<?=$menuorderOld;?>">
 			<br>
 			<label class="control-label">Menu option (max 20): </label>
-			<input type="text" name="menuoption" maxlengt="20" value="<?=$menuoptionOld;?>" autocomplete="off" required>
+			<input type="text" name="menuoption" maxlength="20" value="<?=$menuoptionOld;?>" autocomplete="off" required>
 			<br>
 			<input type="submit" name="submit" value="Submit">
 			<input type="hidden" name="id" value="<?=$pageAll['id'];?>">

@@ -21,10 +21,10 @@
 
 			$query = "DELETE FROM pagecontent WHERE id=$id";
 			$result = $db->query($query);
-			header ("Location: ../admin.php");
+			header ("Location: ../home/admin.php");
 		}
 		elseif (isset($_POST['cancel']))
 		{
-			header ("Location: ../admin.php");
+			header ("Location: ../home/admin.php");
 		}
 	}

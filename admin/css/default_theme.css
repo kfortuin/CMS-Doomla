@@ -1,0 +1,48 @@
+#frame{
+	width: 760px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 15px;
+	font-family: Verdana;
+	height: 100%;
+	background-color: white;
+}
+/*
+table{
+	border-collapse: collapse;
+	background-color: #D8D8D8; 
+	border: 1px solid black;
+}*/
+
+/*table th, table td{
+	border: 1px solid;
+}*/
+
+.createLink:hover {
+	text-decoration: none;
+}
+
+.page-header{
+	margin-top: 40px;
+	
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.container{
+	margin-top: 40px;
+}

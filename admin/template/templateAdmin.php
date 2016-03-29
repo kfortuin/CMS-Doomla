@@ -25,11 +25,12 @@
 	  </div>
 	</div>
 	<div id="frame">
-	<a class="createLink" href="pages/createPage.php"><button type="button" class="btn btn-default navbar-btn">Create page</button></a>
+	<a class="createLink" href="../pages/createPage.php"><button type="button" class="btn btn-default navbar-btn">Create page</button></a>
 		<table class="table">
 				<th>id</th>
 				<th>page</th>
 				<th>content</th>
+				<th>menuorder</th>
 				<th>menuoption</th>
 				<th>edit</th>
 				<th>delete</th>

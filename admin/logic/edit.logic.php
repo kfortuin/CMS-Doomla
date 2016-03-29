@@ -14,6 +14,7 @@
 			$id = $pageAll['id'];
 			$pageOld = $pageAll['page'];
 			$contentOld = $pageAll['content'];
+			$menuorderOld = $pageAll['menuorder'];
 			$menuoptionOld = $pageAll['menuoption'];
 		}
 	}
@@ -22,17 +23,8 @@
 		$id = $db->real_escape_string($_POST['id']);
 		$pageNew = $db->escape_string($_POST['page']);
 		$contentNew = $db->escape_string($_POST['content']);
+		$menuorderNew = $db->escape_string($_POST['menuorder']);
 		$menuoptionNew = $db->escape_string($_POST['menuoption']);
-
-		// $pageNew = strip_tags($_POST['page']);
-		// $contentNew = strip_tags($_POST['content']);
-		// $menuoptionNew = strip_tags($_POST['menuoption']);
-
-		// $pageNew = stripslashes($pageNew);
-		// $contentNew = stripslashes($contentNew);
-		// $menuoptionNew = stripslashes($menuoptionNew);
-
-	
 
 		if ($page == " ")
 		{
@@ -52,6 +44,15 @@
 			$content = $contentNew;
 		}
 
+		if ($menuorder == " ")
+		{
+			$menuorder = $menuorderOld;
+		}
+		else
+		{
+			$menuorder = $menuorderNew;
+		}
+
 		if ($menuoption == " ")
 		{
 			$menuoption = $menuoptionOld;
@@ -61,11 +62,11 @@
 			$menuoption = $menuoptionNew;
 		}
 
-		$query = ("UPDATE pagecontent SET page='$page', content='$content', menuoption='$menuoption' WHERE id=$id");	
+		$query = ("UPDATE pagecontent SET page='$page', content='$content', menuorder='$menuorder', menuoption='$menuoption' WHERE id=$id");	
 
 		$result = $db->query($query);
 
-		header("Location: ../admin.php");
+		header("Location: ../home/admin.php");
 		exit();
 	}
 	

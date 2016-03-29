@@ -12,8 +12,6 @@
 	<title>Create page</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<script src="../../lib/ckeditor/ckeditor.js"></script>
-	<script src="../../lib/ckeditor/config.js"></script>
 
 </head>
 <body>
@@ -33,11 +31,10 @@
 			<label class="control-label">Page title (max. 20): </label>
 			<input type="text" name="page" maxlength="20" placeholder="Page title" autocomplete="off" required>
 			<br>
-			<label class="control-label">Page content (max. 255): </label>
-			<textarea name="content" maxlength="255" placeholder="example text" autocomplete="off" required></textarea>
-			<script>
-            	CKEDITOR.replace( 'content' );
-        	</script>
+			<label class="control-label">Page content: </label>
+			<textarea name="content" placeholder="example text" autocomplete="off" required rows="10" cols="88"><?= "<h1>Title here</h1> <p>Page text here</p>";?></textarea>
+			<br>
+			<input type="hidden" name="menuorder" value="">
 			<br>
 			<label class="control-label">Menu option (max 20): </label>
 			<input type="text" name="menuoption" maxlengt="20" placeholder="pref. same as Page name" autocomplete="off" required>
