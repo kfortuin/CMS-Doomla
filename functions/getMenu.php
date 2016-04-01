@@ -20,6 +20,8 @@
 		$menuoption = $result->fetch_all(MYSQLI_ASSOC);
 		
 		$i = 0;
+
+		// echo "<div id='nav'>";
 		foreach ($menuoption AS $menu)
 		{
 			$menu = $menu['page'];
@@ -27,5 +29,6 @@
 		}
 		echo "<a href='admin/index.php'><button type='button' style='float: right; margin-right: 10px;
 		' class='btn btn-default navbar-btn'>Sign in</button></a>";
+		// echo "</div>";
 
 	}

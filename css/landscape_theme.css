@@ -1,5 +1,17 @@
-*{
+*, *{
 	z-index: 10;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav{
+	background-color: white;
+	border-bottom: 1px black solid;
+}
+
+.nav li{
+	padding-top: 5px;
+	padding-left: 5px;
 }
 
 #frame{
@@ -12,6 +24,7 @@
 	font-family: Verdana;
 	height: 100%;
 	background-color: white;
+	z-index: 10;
 }
 
 .createLink:hover {
@@ -39,4 +52,18 @@
 
 .container{
 	margin-top: 40px;
+}
+
+.fadein {
+    position:relative;
+    /*height:320px;*/
+    width:320px;
+    z-index: -20;
+}
+
+.fadein img {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: -20;
 }
