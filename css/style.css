@@ -1,3 +1,19 @@
+*, *{
+	z-index: 10;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav{
+	background-color: white;
+	border-bottom: 1px black solid;
+}
+
+.nav li{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
 #frame{
 	width: 760px;
 	margin-top: 30px;
@@ -7,16 +23,17 @@
 	padding: 15px;
 	font-family: Verdana;
 	height: 100%;
-	font-size: 20px;
-	line-height: 150%;
 	background-color: white;
+	z-index: 10;
 }
 
-body{
-	/*background-image: url("../img/landscape1.jpg");
-	background-repeat: no-repeat;
-	background-size: viewport-width, viewport-height;
-	background-position: center center;*/
+.createLink:hover {
+	text-decoration: none;
+}
+
+.page-header{
+	margin-top: 40px;
+	
 }
 
 ::-webkit-scrollbar {
@@ -31,4 +48,24 @@ body{
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.container{
+	margin-top: 40px;
+}
+
+.fadein {
+    position:relative;
+    /*height:320px;*/
+    width:320px;
+    z-index: -20;
+}
+
+.fadein img {
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: -20;
+	width: 100%;
+	height: 100%;
 }

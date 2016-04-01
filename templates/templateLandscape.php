@@ -6,7 +6,7 @@
 <html>
 <head>
 	<title><?php echo $page; ?></title>
-	<link rel="stylesheet" href="css/landscape_theme.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="lib/js/jquery-2.2.1.js"></script>
 	<script type="text/javascript">
@@ -25,10 +25,10 @@
 </head>
 <body>
 	<div class="fadein">
-	    <img src="img/1.jpg">
-	    <img src="img/2.jpg">
-	    <img src="img/3.jpg">
-	    <img src="img/4.png">
+	    <img src="img/landscape1.jpg">
+	    <img src="img/landscape2.jpg">
+	    <img src="img/landscape3.jpg">
+	    <img src="img/landscape4.png">
 	</div>
 	<nav role="navigation" id="nav">
 		<ul class="nav nav-pills">
