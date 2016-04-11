@@ -1,14 +1,5 @@
 <?php 
 	require "functions/getMenu.php";
-
-	$query = "SELECT * FROM pagecontent";
-	
-	$result = $db->query($query);
-	$themes = $result->fetch_all(MYSQLI_ASSOC);
-
-	foreach ($themes AS $theme){
-		$theme = $theme['theme'];
-	}
 ?>
 
 <!DOCTYPE html>
@@ -33,19 +24,13 @@
 	</script>
 </head>
 <body>
-	<?php 
-		if ($theme == " "){ ?>
-			<div class='fadein'>
-			    <img src='img/landscape1.jpg'>
-			    <img src='img/landscape2.jpg'>
-			    <img src='img/landscape3.jpg'>
-			    <img src='img/landscape4.png'>
-			</div>
-		
-		
-		<?php 	require "template/template" . $theme . ".php";
-		}; ?>
-	
+	<div class='fadein'>
+	    <img src='img/landscape1.jpg'>
+	    <img src='img/landscape2.jpg'>
+	    <img src='img/landscape3.jpg'>
+	    <img src='img/landscape4.png'>
+	</div>
+
 	<nav role="navigation" id="nav">
 		<ul class="nav nav-pills">
 			<?php echo getMenu(); ?>

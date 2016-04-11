@@ -41,9 +41,9 @@
 			<br>
 			<label class="control-label">Theme:	</label>
 			<br>
-			<input type="radio" name="theme" value="Landscape">Landscape
+			<input type="radio" selected="selected" name="theme" value="templateLandscape.php">Landscape
 			<br>
-			<input type="radio" name="theme" value="Code">Code
+			<input type="radio" name="theme" value="templateCode.php">Code
 			<br>
 			<input type="submit" name="submit" value="Submit">
 			<input type="hidden" name="id" value="<?=$pageAll['id'];?>">

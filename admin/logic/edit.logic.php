@@ -1,5 +1,6 @@
 <?php 
-	require "../../includes/connect.php";
+	ob_start();
+	include "../../includes/connect.php";
 	
 	if ($_SERVER['REQUEST_METHOD'] == "GET")
 	{
@@ -80,4 +81,3 @@
 		header("Location: ../home/admin.php");
 		exit();
 	}
-	
