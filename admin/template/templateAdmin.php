@@ -32,6 +32,7 @@
 				<th>content</th>
 				<th>menuorder</th>
 				<th>menuoption</th>
+				<th>theme</th>
 				<th>edit</th>
 				<th>delete</th>
 

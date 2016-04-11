@@ -16,6 +16,7 @@
 			$contentOld = $pageAll['content'];
 			$menuorderOld = $pageAll['menuorder'];
 			$menuoptionOld = $pageAll['menuoption'];
+			$themeOld = $pageAll['theme'];
 		}
 	}
 	elseif ($_SERVER['REQUEST_METHOD'] == "POST")
@@ -25,6 +26,7 @@
 		$contentNew = $db->escape_string($_POST['content']);
 		$menuorderNew = $db->escape_string($_POST['menuorder']);
 		$menuoptionNew = $db->escape_string($_POST['menuoption']);
+		$themeNew = $db->escape_string($_POST['theme']);
 
 		if ($page == " ")
 		{
@@ -62,7 +64,16 @@
 			$menuoption = $menuoptionNew;
 		}
 
-		$query = ("UPDATE pagecontent SET page='$page', content='$content', menuorder='$menuorder', menuoption='$menuoption' WHERE id=$id");	
+		if ($theme == " ")
+		{
+			$theme = $themeOld;
+		}
+		else
+		{
+			$theme = $themeNew;
+		}
+
+		$query = ("UPDATE pagecontent SET page='$page', content='$content', menuorder='$menuorder', menuoption='$menuoption', theme='$theme' WHERE id=$id");	
 
 		$result = $db->query($query);
 

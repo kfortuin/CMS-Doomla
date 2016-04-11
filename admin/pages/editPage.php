@@ -39,6 +39,12 @@
 			<label class="control-label">Menu option (max 20): </label>
 			<input type="text" name="menuoption" maxlength="20" value="<?=$menuoptionOld;?>" autocomplete="off" required>
 			<br>
+			<label class="control-label">Theme:	</label>
+			<br>
+			<input type="radio" name="theme" value="Landscape">Landscape
+			<br>
+			<input type="radio" name="theme" value="Code">Code
+			<br>
 			<input type="submit" name="submit" value="Submit">
 			<input type="hidden" name="id" value="<?=$pageAll['id'];?>">
 		</form>
