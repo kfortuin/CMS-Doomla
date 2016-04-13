@@ -41,7 +41,7 @@
 			<br>
 			<label class="control-label">Theme:	</label>
 			<br>
-			<input type="radio" selected="selected" name="theme" value="templateLandscape.php">Landscape
+			<input type="radio" selected="true" name="theme" value="templateLandscape.php">Landscape
 			<br>
 			<input type="radio" name="theme" value="templateCode.php">Code
 			<br>
