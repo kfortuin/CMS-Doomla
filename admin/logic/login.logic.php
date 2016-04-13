@@ -31,6 +31,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		function setAccess($username)
 		{
 			$token = rand(1, 99999);
+			$expiry = time() + 600;
+
 			
 		}
 	}
