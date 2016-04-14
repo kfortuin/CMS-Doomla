@@ -1,6 +1,8 @@
 <?php 
 	require "../../includes/connect.php";
 
+	// Triggers on loading the page
+
 	if ($_SERVER['REQUEST_METHOD'] == "GET")
 	{
 		if (isset($_GET['id']))
@@ -13,6 +15,9 @@
 			$pageContent = $result->fetch_all(MYSQLI_ASSOC);
 		}
 	} 
+
+	// Performs a `delete` if the user confirms. If the user cancels, nothing changes and user is redirected to the main admin page
+
 	elseif ($_SERVER['REQUEST_METHOD'] == "POST")
 	{
 		if (isset($_POST['confirm']))

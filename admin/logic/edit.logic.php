@@ -10,6 +10,8 @@
 		$result = $db->query($query);
 		$pagesAll = $result->fetch_all(MYSQLI_ASSOC);
 
+		// Triggers on entering the page. Put all the data gathered from the database into variables, which can be used to run checks on.
+
 		foreach($pagesAll AS $pageAll)
 		{
 			$id = $pageAll['id'];
@@ -20,6 +22,8 @@
 			$themeOld = $pageAll['theme'];
 		}
 	}
+
+	// After changing certain data about the page, this replaces the `old` data with the new data, but if nothing changed, the data will keep its old value
 	elseif ($_SERVER['REQUEST_METHOD'] == "POST")
 	{
 		$id = $db->real_escape_string($_POST['id']);

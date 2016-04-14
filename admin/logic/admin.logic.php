@@ -4,7 +4,7 @@
 	$result = $db->query($query);
 	$pagesAll = $result->fetch_all(MYSQLI_ASSOC);	
 
-
+	// getAll gathers all the content of the database and sorts them to be used in a table
 
 	function getAll()
 	{

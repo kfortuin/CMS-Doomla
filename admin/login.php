@@ -9,7 +9,7 @@
 <body>
 	<h1>Log in</h1>
 	
-	<form class="login" action="logic/login.logic.php" action="post">
+	<form class="login" action="logic/login.logic.php" method="post">
 		<label>Username: </label>
 		<input type="text" name="username"
 		placeholder="Username">
@@ -18,7 +18,6 @@
 		<input type="password" name="password" placeholder="">
 		<br>
 		<input type="submit" name="submit" value="Log in">
-
 
 	</form>
 
