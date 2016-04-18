@@ -27,6 +27,8 @@
 	    <small>Welcome. On this website you can create your own page!</small></h1>
 	  </div>
 
+	  <!-- Form to create new page -->
+
 		<form class="form-horizontal" action="../logic/create.logic.php" method="post">
 			<label class="control-label">Page title (max. 20): </label>
 			<input type="text" name="page" maxlength="20" placeholder="Page title" autocomplete="off" required>
@@ -39,11 +41,21 @@
 			<label class="control-label">Menu option (max 20): </label>
 			<input type="text" name="menuoption" maxlengt="20" placeholder="pref. same as Page name" autocomplete="off" required>
 			<br>
+			<label class="control-label">Theme:	</label>
+			<br>
+			<span class="themeSelect">
+			<input type="radio" checked="checked" name="theme" value="templateLandscape.php">
+			Landscape<img src="../thumb/landscape1.jpg" width="240px">
+			</span>
+			<br>
+			<span class="themeSelect">
+			<input type="radio" name="theme" value="templateCode.php">
+			Code<img src="../thumb/code1.jpg" width="240px">
+			</span>
+			<br>
 			<input type="submit" name="submit" value="Submit">
 		</form>
-		<!-- Form to create new page -->
-
-
+		
 
 	</div>
 </body>

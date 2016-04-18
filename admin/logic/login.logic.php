@@ -31,7 +31,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
 		$db_password = $rows['password'];
 
-		function setAccess()
+		function setAccess($username)
 		{
 		global $username, $db;
 
@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		if($password == $db_password)
 		{
 			echo "HOI";
-			setAccess($username);
+			setAccess();
 			header ("Location: ../home/admin.php");
 		}else{
 			header("Location: ../index.php");

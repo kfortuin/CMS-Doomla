@@ -47,3 +47,15 @@ table{
 	margin-top: 40px;
 }
 
+.themeSelect{
+	position: relative;
+}
+
+.themeSelect img{
+	display: none;
+	top: 1.2em;
+}
+
+.themeSelect:hover img{
+	display: block;
+}
