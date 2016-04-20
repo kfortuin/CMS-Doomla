@@ -1,7 +1,8 @@
 <?php 
 	require "../../includes/connect.php";
 	require "../logic/create.logic.php";
-	require "../functions/getMenu.php"
+	require "../functions/getMenu.php";
+	require "../function/getAccessUsername.php";
 ?>
 
 <!DOCTYPE html>

@@ -52,6 +52,8 @@ table{
 }
 
 .themeSelect img{
+	z-index: 2;
+	position: absolute;
 	display: none;
 	top: 1.2em;
 }

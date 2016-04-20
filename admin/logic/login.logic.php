@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
 		function setAccess($username)
 		{
-		global $username, $db;
+		global $username, $db, $password;
 
 			$token = rand(1, 99999);
 			$expiry = time() + 600;
@@ -41,7 +41,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
 			setcookie("user", $username, $expiry);
 
-			$query = ("INSERT INTO user (token, expiry) VALUES ($token, $expiry) WHERE name='$username'");
+			$query = "UPDATE user SET token='$token', expiry='$expiry' WHERE name='$username' AND password='$password'";
 			$result = $db->query($query);
 		}
 	
@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		if($password == $db_password)
 		{
 			echo "HOI";
-			setAccess();
+			setAccess($username);
 			header ("Location: ../home/admin.php");
 		}else{
 			header("Location: ../index.php");

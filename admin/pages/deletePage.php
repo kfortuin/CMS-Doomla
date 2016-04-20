@@ -2,6 +2,7 @@
 	require "../../includes/connect.php";
 	require "../logic/delete.logic.php";
 	require "../functions/getMenu.php";
+	require "../function/getAccessUsername.php";
 ?>
 
 <!DOCTYPE html>

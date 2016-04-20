@@ -2,6 +2,7 @@
 	require "../../includes/connect.php";
 	require "../logic/edit.logic.php";
 	require "../functions/getMenu.php";
+	require "../function/getAccessUsername.php";
 ?>
 
 <!DOCTYPE html>
@@ -41,9 +42,15 @@
 			<br>
 			<label class="control-label">Theme:	</label>
 			<br>
-			<input type="radio" selected="true" name="theme" value="templateLandscape.php">Landscape
+			<span class="themeSelect">
+			<input type="radio" checked="checked" name="theme" value="templateLandscape.php">
+			Landscape<img src="../thumb/landscape1.jpg" width="240px">
+			</span>
 			<br>
-			<input type="radio" name="theme" value="templateCode.php">Code
+			<span class="themeSelect">
+			<input type="radio" name="theme" value="templateCode.php">
+			Code<img src="../thumb/code1.jpg" width="240px">
+			</span>
 			<br>
 			<input type="submit" name="submit" value="Submit">
 			<input type="hidden" name="id" value="<?=$pageAll['id'];?>">
