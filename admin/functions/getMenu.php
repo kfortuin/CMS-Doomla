@@ -1,5 +1,18 @@
 <?php
+	include "../logic/login.logic.php";
+
+	function checkAccess() {
+		$username = getAccessUsername();
+
+		if($username == false) {
+			header("Location: ../login.php");
+		} else {
+			setAccess($username);
+		}
+	}
 	
+	checkAccess();
+
 	function getMenu()
 	{
 		global $db;
@@ -14,6 +27,7 @@
 			$menu = $menu['page'];
 			echo "<li role='presentation'><a href='../../index.php?page=$menu'>" . $menu . "</a></li> ";
 		}
-		echo "<a href='../log/logout.php'><button type='button' style='float: right; margin-right: 10px;
+		echo "<a href='../logic/logout.logic.php'><button type='button' style='float: right; margin-right: 10px;
 		' class='btn btn-default navbar-btn'>Sign out</button></a>";
 	}
+
